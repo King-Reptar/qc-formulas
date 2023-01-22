@@ -1,4 +1,102 @@
-div {
-    color: greenyellow;
-    background-color: red;
+body {
+    background-image: linear-gradient(105deg, rgb(205, 205, 205) 39%, rgb(247, 255, 173) 96%);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 500px;
+    border: 20px solid rgb(226, 218, 149); 
+    border-radius: 15px;
+    padding: 0px;
+}
+
+h1 {
+    font-size:calc(70px);
+    font-family: cursive;
+    font-style: italic;
+    letter-spacing: 8px;
+    padding-bottom: 0px;
+}
+
+h2 {
+    font-size: 35px;
+    font-style: italic;
+    font-family: cursive;
+    display: flex 1;
+}
+
+.wrap {
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.wrap > div {
+    flex: 1;
+}
+
+.box1 {
+    color: rgb(0, 4, 255);
+    padding: 10px;
+    border: 5px solid rgb(192, 65, 65);
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+}
+
+.box2 {
+    color: rgb(169, 255, 64);
+    border: 5px solid rgb(128, 189, 213);
+    border-radius: 15px 15px 15px 15px;
+    background-color: pink;
+    justify-content: center;  
+}
+
+.box3 {
+    color: red;  
+    border: 5px solid rgb(133, 59, 107);
+    border-radius: 15px 15px 15px 15px;
+    background-color: yellow
+}
+
+.box4 {
+    color:orange;
+    border: 5px solid rgb(123, 19, 19);
+    border-radius: 15px 15px 15px 15px;
+    background-color: greenyellow;
+}
+
+.box5 {
+    color: tan;
+    border: 5px solid rgb(130, 213, 228);
+    border-radius: 15px 15px 15px 15px;
+    background-color: green;
+}
+
+.box6 {
+    color: magenta;
+    border: 5px solid rgb(59, 6, 6);
+    border-radius: 15px 15px 15px 15px;
+    background-image:"../images/soap.jpg";
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+}
+
+.grid > div {
+    flex: 1;
+}
+
+.menu {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    border: 10px solid whitesmoke;
+}
+
+.menu > div {
+    flex: 1;
 }
